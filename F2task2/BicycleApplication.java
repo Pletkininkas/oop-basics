@@ -24,7 +24,7 @@ public class BicycleApplication {
         roadBike.changeGear(10);
         roadBike.changeGear(2);
 
-        Speedometer.chooseWinner(roadBike, mountainBike);
+        System.out.printf("The winner is: %s", Speedometer.chooseWinner(roadBike, mountainBike).display());
 
     }
 }
