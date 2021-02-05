@@ -1,10 +1,10 @@
-package com.itacademy.java.oop.basics.task2;
+package com.itacademy.java.oop.basics.F2task2;
 
 public class BicycleApplication {
 
     public static void main(String[] args) {
-        Bicycle mountainBike = new MountainBike(2, 17);
-        Bicycle roadBike = new RoadBike(1, 15);
+        MountainBike mountainBike = new MountainBike(2, 17);
+        RoadBike roadBike = new RoadBike(1, 15);
 
         mountainBike.speedUp(10);
         mountainBike.speedUp(74);
@@ -23,5 +23,8 @@ public class BicycleApplication {
         roadBike.changeGear(-2);
         roadBike.changeGear(10);
         roadBike.changeGear(2);
+
+        Speedometer.chooseWinner(roadBike, mountainBike);
+
     }
 }

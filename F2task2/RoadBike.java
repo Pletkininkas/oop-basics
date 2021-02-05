@@ -1,4 +1,4 @@
-package com.itacademy.java.oop.basics.task2;
+package com.itacademy.java.oop.basics.F2task2;
 
 public class RoadBike implements Bicycle {
 

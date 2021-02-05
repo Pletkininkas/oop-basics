@@ -1,4 +1,4 @@
-package com.itacademy.java.oop.basics.task3;
+package com.itacademy.java.oop.basics.F2task3;
 
 public abstract class Card {
 

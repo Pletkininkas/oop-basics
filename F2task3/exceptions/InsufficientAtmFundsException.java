@@ -1,4 +1,4 @@
-package com.itacademy.java.oop.basics.task3.exceptions;
+package com.itacademy.java.oop.basics.F2task3.exceptions;
 
 public class InsufficientAtmFundsException extends Exception {
 

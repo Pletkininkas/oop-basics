@@ -1,8 +1,12 @@
-package com.itacademy.java.oop.basics.task2;
+package com.itacademy.java.oop.basics.F2task2;
 
 public class Speedometer {
 
     static Bike chooseWinner(MountainBike mountainBike, RoadBike roadBike) {
+        return chooseWinner(mountainBike.getSpeed(), roadBike.getSpeed());
+    }
+
+    static Bike chooseWinner(RoadBike roadBike, MountainBike mountainBike) {
         return chooseWinner(mountainBike.getSpeed(), roadBike.getSpeed());
     }
 

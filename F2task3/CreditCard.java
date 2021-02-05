@@ -1,6 +1,6 @@
-package com.itacademy.java.oop.basics.task3;
+package com.itacademy.java.oop.basics.F2task3;
 
-import com.itacademy.java.oop.basics.task3.exceptions.NotEnoughCreditException;
+import com.itacademy.java.oop.basics.F2task3.exceptions.NotEnoughCreditException;
 
 public class CreditCard extends Card {
 
